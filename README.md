@@ -26,11 +26,13 @@ If loan_amnt is less than equals to funded_amnt set it as ‘0’ else set it as
 10. Using the bar plot visualize the loan_status column against categorical
 column grade, term, verification_status . Write the observation from
 each graph.
+
 11.Using a user defined function convert the ‘emp_len’ column into
 categorical column as follows -
 If emp_len is less than equals to 1 then recode as ‘fresher’.
 If emp_len is greater than 1 and less than 3 then recode as ‘junior’.
 If emp_len is greater than 3 and less than 7 then recode as ‘senior’
 If emp_len is greater than 7 then recode as ‘expert’.
+
 12.Find the sum of ‘loan_amnt’ for each grade and display the distribution
 of ‘loan_amnt’ using a pie plot.
